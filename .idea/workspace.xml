@@ -1,15 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6eae4ff7-c0e3-4e1a-83da-f69dd0d8b31a" name="更改" comment="" />
+    <list default="true" id="6eae4ff7-c0e3-4e1a-83da-f69dd0d8b31a" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/src/BasicRules.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Example/TestAuthority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Example/TestPackage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/First.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "luciferase630"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/luciferase630/JavaLearning.git",
+    "accountId": "8e5bca77-c7af-43e6-ac87-ad20c5a7b587"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
@@ -24,9 +53,61 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "E:/codelist/java/thelearning/src/Main.java"
+    "onboarding.tips.debug.path": "E:/codelist/java/thelearning/src/Main.java",
+    "settings.editor.selected.configurable": "terminal",
+    "应用程序.Begin.executor": "Run",
+    "应用程序.First.executor": "Run",
+    "应用程序.StringApi.executor": "Run",
+    "应用程序.TestAuthority.executor": "Run",
+    "应用程序.TestPackage.executor": "Run",
+    "应用程序.Testauthority.executor": "Run",
+    "应用程序.begin.executor": "Run",
+    "应用程序.test.executor": "Run"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="TestAuthority" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
+      <option name="MAIN_CLASS_NAME" value="TestAuthority" />
+      <module name="thelearning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testauthority" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Example.Testauthority" />
+      <module name="thelearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="begin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Example.begin" />
+      <module name="thelearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.begin" />
+        <item itemvalue="应用程序.TestAuthority" />
+        <item itemvalue="应用程序.Testauthority" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
