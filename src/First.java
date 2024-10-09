@@ -51,7 +51,7 @@ public class First {
       continue,break 完全一致
       for (int x:arr){
       System.out.println(x);}
-      okok,这foreach 循环属于是还得练，因为你得知道你容器里的元素到底是什么，就比如说二维数组它内部的元素就是一堆指针
+      okok,这foreach练熟才行，因为你得知道你容器里的元素到底是什么，就比如说二维数组它内部的元素就是一堆引用（指针）
 
 
      */
