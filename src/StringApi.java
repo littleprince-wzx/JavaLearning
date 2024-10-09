@@ -26,7 +26,7 @@ public class StringApi {
         }
         StringTokenizer A=new StringTokenizer("THAT IS THAT");
 
-    }
+
 /*
 
 
@@ -59,6 +59,7 @@ public class StringApi {
     6StringTokenizer，就是字符串解析更方便的类
     三种构造方法
     1就跟String构造方法一模一样没什么区别，使用默认分隔符
+    空格、制表符、换行符、回车符、换页符（默认分隔符）
     2StringTokenizer(String str，String delim)使用自定义分隔符
     3StringTokenizer(String str，String delim，boolean returnDelims)使用自定义分隔符，如果后面那个布尔值为真，那么分隔符也将被包含
     apple
@@ -69,8 +70,26 @@ public class StringApi {
     这样的
     常用方法
     int countTokens（）返回nextToken（）的调用次数
-    boolean has
+    标记提取：每次调用 nextToken() 方法时，StringTokenizer 返回当前标记，并将内部指针移动到下一个标记的开始位置。
+    StringTokenizer 维护一个内部指针来跟踪当前解析的位置，并使用分隔符来确定标记的边界。
+
+    7
+    这里提到可以用静态工厂方法来实例化，比如说，额，这里想用split和tokenizer去多样的用字符串来初始化，实例化
+    具体静态工厂有什么用我也没搞清楚
+    token：标志，代金券，信物，礼券，专用辅币
      */
+    //A是一个StringTokenizer对象
+        A.countTokens();//返回调用次数
+        A.hasMoreElements();//这玩意和hasMoreTokens好像是一样的，都是布尔类型，返回是否还有更多的可用的词汇单元
+        A.hasMoreTokens();//这俩都是
+        System.out.println(A.nextToken(" "));//是不打印分隔符的
+        A.nextElement();//返回了object对象
+        A.nextToken();//返回了String对象
+       // A.nextToken(" ");//以指定的分隔符来返回下一个词汇单元,分隔符类型为String
+        //连续三个next，a直接返回不到字符串了，服了
+        StringTokenizer test=new StringTokenizer("THAT IS THAT");
+        System.out.println(test.nextToken(" "));
+        System.out.println(test.nextToken());
 
-
+    }
 }
