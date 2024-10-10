@@ -1,16 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="8" />
+    <option name="CUSTOM_SCOPE_NAME" value="模块 'thelearning'" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6eae4ff7-c0e3-4e1a-83da-f69dd0d8b31a" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/src/BasicRules.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Example/TestAuthority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Example/TestPackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/StringApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SeventhChapterAbstract/AbstractExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SixthChapterCollectionAndList/ArrayListExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SixthChapterGenericsEg/GenericsEGclass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/First.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/BasicRules.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/BasicRules.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/Example/Begin.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/Example/Begin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/Example/OutOfRangeException.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/Example/OutOfRangeException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/Example/TestAuthority.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/Example/TestAuthority.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/Example/TestPackage.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/Example/TestPackage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/Example/Testity.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/Example/Testity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/Example/class-use/Begin.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/Example/class-use/Begin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/Example/class-use/OutOfRangeException.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/Example/class-use/OutOfRangeException.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/Example/class-use/TestAuthority.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/Example/class-use/TestAuthority.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/Example/class-use/TestPackage.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/Example/class-use/TestPackage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/Example/class-use/Testity.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/Example/class-use/Testity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/Example/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/Example/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/Example/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/Example/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/Example/package-use.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/Example/package-use.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/Extends1.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/Extends1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/First.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/First.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/StringApi.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/StringApi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/YiChang.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/YiChang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/YiChangmain.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/YiChangmain.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/allclasses-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/allclasses-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/allpackages-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/allpackages-index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/class-use/BasicRules.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/class-use/BasicRules.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/class-use/Extends1.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/class-use/Extends1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/class-use/First.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/class-use/First.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/class-use/StringApi.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/class-use/StringApi.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/class-use/YiChang.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/class-use/YiChang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/class-use/YiChangmain.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/class-use/YiChangmain.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/class-use/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/class-use/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/element-list" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/element-list" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/index-files/index-1.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/index-files/index-1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/index-files/index-10.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/index-files/index-10.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/index-files/index-11.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/index-files/index-11.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/index-files/index-12.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/index-files/index-12.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/index-files/index-13.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/index-files/index-13.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/index-files/index-14.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/index-files/index-14.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/index-files/index-15.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/index-files/index-15.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/index-files/index-2.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/index-files/index-2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/index-files/index-3.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/index-files/index-3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/index-files/index-4.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/index-files/index-4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/index-files/index-5.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/index-files/index-5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/index-files/index-6.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/index-files/index-6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/index-files/index-7.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/index-files/index-7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/index-files/index-8.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/index-files/index-8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/index-files/index-9.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/index-files/index-9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/overview-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/overview-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/package-summary.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/package-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/package-tree.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/package-tree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/serialized-form.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/serialized-form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javadoclearning/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/javadoclearning/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BasicRules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondPartUnit3/BasicRules.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Example/OutOfRangeException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionExample/OutOfRangeException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Example/TestAuthority.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionExample/TestAuthority.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Example/TestPackage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExceptionExample/TestPackage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FifthChapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FifthChapterUnit4And5/FifthChapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstChapter/First.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericsEg/GenericsEGclass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ThirdChapterStringapiUnit3/StringApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/YiChang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FourthChapterExceptionAndjavadocUnit3/YiChang.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,23 +90,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "luciferase630"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;luciferase630&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/luciferase630/JavaLearning.git",
-    "accountId": "8e5bca77-c7af-43e6-ac87-ad20c5a7b587"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/luciferase630/JavaLearning.git&quot;,
+    &quot;accountId&quot;: &quot;8e5bca77-c7af-43e6-ac87-ad20c5a7b587&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2n9Y7wX6Izf0dBZEFt8jFD2qLFq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,35 +119,63 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "E:/codelist/java/thelearning/src/Main.java",
-    "settings.editor.selected.configurable": "terminal",
+    "settings.editor.selected.configurable": "Settings.Markdown",
+    "应用程序.ArrayListExample.executor": "Run",
     "应用程序.Begin.executor": "Run",
+    "应用程序.Example.TestAuthority.executor": "Run",
     "应用程序.First.executor": "Run",
     "应用程序.StringApi.executor": "Run",
     "应用程序.TestAuthority.executor": "Run",
     "应用程序.TestPackage.executor": "Run",
-    "应用程序.Testauthority.executor": "Run",
-    "应用程序.begin.executor": "Run",
-    "应用程序.test.executor": "Run"
+    "应用程序.Testauthority.executor": "Coverage",
+    "应用程序.TheTestOfSonClass.executor": "Run",
+    "应用程序.YiChangmain.executor": "Run",
+    "应用程序.begin.executor": "Coverage",
+    "应用程序.test.executor": "Run",
+    "应用程序.testforAbstract.executor": "Run"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="FourthChapterExceptionAndjavadocUnit3" />
+      <recent name="ThirdChapterStringapiUnit3" />
+      <recent name="FirstChapter" />
+      <recent name="FifthChapter" />
+      <recent name="SecondPart" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration name="Begin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionExample.Begin" />
+      <module name="thelearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExceptionExample.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestAuthority" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="UNNAMED_CLASS_CONFIGURATION" value="true" />
-      <option name="MAIN_CLASS_NAME" value="TestAuthority" />
+      <option name="MAIN_CLASS_NAME" value="ExceptionExample.TestAuthority" />
       <module name="thelearning" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Testauthority" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example.Testauthority" />
+    <configuration name="Testity" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExceptionExample.Testity" />
       <module name="thelearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Example.*" />
+          <option name="PATTERN" value="ExceptionExample.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,24 +183,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="begin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Example.begin" />
-      <module name="thelearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="应用程序.Begin" />
+      <item itemvalue="应用程序.Example.TestAuthority" />
+      <item itemvalue="应用程序.Testity" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.begin" />
-        <item itemvalue="应用程序.TestAuthority" />
-        <item itemvalue="应用程序.Testauthority" />
+        <item itemvalue="应用程序.Begin" />
+        <item itemvalue="应用程序.Example.TestAuthority" />
+        <item itemvalue="应用程序.Testity" />
       </list>
     </recent_temporary>
   </component>
@@ -129,5 +217,13 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/thelearning$begin.ic" NAME="begin 覆盖结果" MODIFIED="1728435572295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Example.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/thelearning$Testauthority.ic" NAME="Testauthority 覆盖结果" MODIFIED="1728435627226" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>Example.*</FILTER>
+    </SUITE>
   </component>
 </project>
