@@ -1,4 +1,6 @@
-import Example.OutOfRangeException;
+package FourthChapterExceptionAndjavadocUnit3;
+
+import ExceptionExample.OutOfRangeException;
 import java.io.*;
 public class YiChang {
 }
@@ -8,8 +10,8 @@ public class YiChang {
  * @author 方镐翔  632077567@qq.com
  * @author 刘乙麟 （希望真的有这么一天）
  * @version 1.0.12
- * @see Example.OutOfRangeException 这个是用来了解自己在其他包内定义的异常类的
- * @see YiChangmain#readInteger() 推荐查看如何从控制台读取输入
+ * @see ExceptionExample.OutOfRangeException 这个是用来了解自己在其他包内定义的异常类的
+ * @see YiChangmain #readInteger() 推荐查看如何从控制台读取输入
  * @see #stdIn 标准输入流
  * @see OutOfRangeException#getA() ;
  */
@@ -116,6 +118,7 @@ class YiChangmain{
         YiChangmain eg1=new YiChangmain();
 
         try {
+            f();
             eg1.positiveInteger(-5);//这样就已经能看到这个异常是Exception in thread "main"里了，主线程异常
         }
         catch (RuntimeException exception1){
@@ -129,6 +132,10 @@ class YiChangmain{
             for (StackTraceElement element:elements){
                 System.out.println(element);
             }
+
+        }
+        catch (Exception exception2){
+            exception2.printStackTrace();//说什么应该替换为更可靠的日志，也不知道在说啥
 
         }
         stdOut.println("The value is :"+readInteger());//除非读取到整数不然我不给你你过

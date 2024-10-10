@@ -1,4 +1,4 @@
-package Example;
+package ExceptionExample;
 
 /**
  * 这就是继承自RuntimeException的自定义异常类，甚至啥都没改写，就是改了个名几乎是，构造方法调用完父类的直接构造了

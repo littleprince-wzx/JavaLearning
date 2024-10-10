@@ -1,3 +1,5 @@
+package FirstChapter;
+
 import java.util.Arrays;
 
 public class First {
@@ -28,8 +30,8 @@ public class First {
     这注释风格也是这样*/
     //大部分的语法风格基本和c一致，先在first里把它的语法讲个明白吧
     /*
-    1主类是包含程序入口点（即主方法）的嘞，他可以是任意一个类，他只要包含主方法就行。
-    2java中有“成员变量” 和“局部变量”，没有全局变量
+    1主类是包含程序入口点（即主方法）的，他可以是任意一个类，他只要包含主方法就行。
+    2java中有“成员变量” 和“局部变量”，没有全局变量。成员变量指的是对象的属性和方法，而局部变量指的是局部作用域的变量，比如for初始化的来的变量
     3主方法是public static void main(String[] args),可以用命令行给他传参
     4可以导入其他包，其他类，java 中是用包来管理文件的，具体怎么导入后面单独开一点点讲
     5java的数据类型 byte8位 short16位 int32位 long64位 write once ,run any where 所以就永远这么长
@@ -38,17 +40,18 @@ public class First {
       boolen 布尔 不具体规定，一般来说是一个字节，为了方便寻址(一个字节是最小寻址单位）
       这都是基本数据类型了
       String是个类，标准库的一部分。
-      先声明，后使用
-      final 关键字
+      先声明，后使用，这点跟c完全一致
+      接下来讲一些简单的关键字
+      final 关键字，修饰一个变量它就是const修饰
       运算符基本上和c一样，| 按位或 &按位与 >> >>> << ~按位取反 ^按位异或
       if else else if 反正都是一样的
       switch (expression){
       case 常量1：
       执行语句
       break(可选)}
-      同样的for,while 也是一样的
-      foreach 语句是专业用的
-      continue,break 完全一致
+      同样的for,while 也是一样的，continue,break 完全一致
+      foreach 语句是用来遍历的
+      这是语法
       for (int x:arr){
       System.out.println(x);}
       okok,这foreach练熟才行，因为你得知道你容器里的元素到底是什么，就比如说二维数组它内部的元素就是一堆引用（指针）

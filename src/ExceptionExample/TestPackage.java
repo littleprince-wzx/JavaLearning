@@ -1,4 +1,4 @@
-package Example;
+package ExceptionExample;
 
 public class TestPackage {
     private int age;
