@@ -1,4 +1,4 @@
-package SeventhChapterAbstract;
+package SeventhChapterAbstractAndInterface;
 
 /**
  * 抽象类讲解

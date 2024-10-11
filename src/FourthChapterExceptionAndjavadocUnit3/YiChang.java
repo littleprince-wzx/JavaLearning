@@ -98,10 +98,14 @@ class YiChangmain{
     }
     public static void main(String[] args) {
         /*
-        1，异常处理机制的引入，就是觉得ifelse，ifelse会影响正常逻辑的业务代码，把所有出现的异常封装成为了对象
+        1，异常处理机制的引入，就是觉得if else，if else会影响正常逻辑的业务代码，把所有出现的异常封装成为了对象
         关于各种异常的继承关系你得好好看看书p97,。
         2，throw关键字，就是用来手动抛出异常的，如果没有处理，这个异常会逐级上抛，如果没有处理最后到main里就会异常终止程序
-        3，try-catch关键字，try一段可能出现异常的代码，而catch后面的参数是某种类型的异常，我在后面都写好了，语法看一眼就知道了
+        3，try-catch关键字，try一段可能出现异常的代码，而catch后面的参数是某种类型的异常，我在后面都写好了示例。
+        finally 则
+        在Java中，当try代码块执行成功（即没有抛出任何异常）时，程序会继续执行try代码块之后的代码。
+        这些代码可以是try-catch结构外部的代码，也可以是try块内部的代码（如果有的话）。
+        而python中的语法略有不同，else将成为try执行成功后的被执行代码块
         4，书中小例子，关于如何从控制台读取一个整数，我真是服了，这里用的很多都没学，我这api没学我看个集贸的书啊？
         读取整数的例子，痛苦死我了
         5还有上课当时讲的，为了避免什么输入流输出流一直被打开，用try with source什么的？
@@ -138,6 +142,12 @@ class YiChangmain{
             exception2.printStackTrace();//说什么应该替换为更可靠的日志，也不知道在说啥
 
         }
-        stdOut.println("The value is :"+readInteger());//除非读取到整数不然我不给你你过
+        finally {
+            System.out.println("我什么时候都会执行");
+        }
+        stdOut.println("The value is :"+readInteger());//除非读取到整数不然我不给你你过，这个是前面铺垫了那么久的代码块，非常的优美
+        //stdOut是一个标准输出对象，我自己创建的(书上创建的）
+        //同样，readInteger也是书上所创建的一个public static int 函数
+
     }
 }
