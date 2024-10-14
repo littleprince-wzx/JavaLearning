@@ -12,5 +12,7 @@ public class InputExample {
         System.out.println(input);
         System.out.println(character);
 
+        //scanner 也有很多类似cin ，cin还有.read()的函数，都忘的差不多了反正
+
     }
 }

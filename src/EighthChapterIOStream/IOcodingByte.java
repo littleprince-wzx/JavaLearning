@@ -22,7 +22,7 @@ public class IOcodingByte {
     public void m(InputStream in){
         try{
             while(true){
-                int i=in.read();
+                int i=in.read();//input的read方法
                 if(i ==-1){
                     return;
                 }
@@ -41,7 +41,7 @@ public class IOcodingByte {
         //以下是书上的InputStream主要方法表通过其某一个子类的实现
         // 示例数据
         String data = "Hello, InputStream! This is a demonstration of InputStream methods.";
-        byte[] byteArray = data.getBytes();
+        byte[] byteArray = data.getBytes();//从字符转换为字节
 
         // 创建 ByteArrayInputStream
         ByteArrayInputStream inputStream = new ByteArrayInputStream(byteArray);//初始化，就相当于是在拿这个String data来举示例
@@ -53,11 +53,15 @@ public class IOcodingByte {
 
             // 2. read(byte b[])：将多个字节读入字节数组中，并返回实际读取的字节数
             byte[] buffer = new byte[10];
-            int bytesRead = inputStream.read(buffer);
+            int bytesRead = inputStream.read(buffer);//这read指的是吧这个inputStream里的数据读到buffer里，buffer只有十个这么大
             System.out.println("读取的字节 (read(byte[])): " + new String(buffer, 0, bytesRead));
 
             // 3. read(byte[], int off, int len)：从输入流中读取最多 len 个字节，并将其存储在字节数组的指定偏移量 off 处
             byte[] buffer2 = new byte[10];
+            /**
+             * 这里读完一次之后这个指针还会偏移？不是重新开始读？
+             * 它维护一个内部的指针，每次读取都会从读取结束的位置继续读取。
+             */
             int bytesRead2 = inputStream.read(buffer2, 0, 5);
             System.out.println("读取的字节 (read(byte[], int off, int len)): " + new String(buffer2, 0, bytesRead2));
 
@@ -65,7 +69,8 @@ public class IOcodingByte {
             long skippedBytes = inputStream.skip(5);
             System.out.println("跳过的字节数: " + skippedBytes);
 
-            // 5. available()：返回可以从输入流中读取的字节数
+            // 5. available()：返回可以从输入流中读取的字节数.
+            //但是书上说什么返回流中不阻塞情况下，我都不知道什么是流阻塞？
             int availableBytes = inputStream.available();
             System.out.println("可用字节数: " + availableBytes);
 

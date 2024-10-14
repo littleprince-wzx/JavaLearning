@@ -1,0 +1,36 @@
+1. 状态独立性
+新迭代器：每次调用 iterator() 方法都会返回一个新的迭代器对象。这个新迭代器的状态是独立的，意味着它从集合的开头开始遍历。
+旧迭代器：之前创建的迭代器在遍历过程中会维护自己的状态，包括当前的位置（即下一个要返回的元素）。
+如果你已经使用旧迭代器遍历了一部分集合，旧迭代器的状态会反映这一点。
+2. 遍历位置
+新迭代器：新创建的迭代器总是从集合的第一个元素开始遍历。
+旧迭代器：旧迭代器的遍历位置取决于你在使用它时调用了多少次 next() 方法。它可能已经遍历到集合的中间或末尾。
+
+2如果你在while循环里进行迭代，你不能在内部修改迭代器的内容
+
+
+那正常迭代的时候能修改吗？比如，我remove了一个，然后我立刻add一个？
+   Iterator<String> k=a.iterator();
+        k.next();
+        k.remove();
+        a.add("try to cause serious problems");这样是完全可行的
+
+
+ConcurrentModificationException 的原因
+迭代器的设计：
+
+Java 的集合类（如 ArrayList）在内部维护一个修改计数器（modCount），这个计数器在集合被修改（如添加、删除元素）时会增加。
+当你创建一个迭代器时，它会记录当时的 modCount 值。
+当你使用迭代器的 next() 方法遍历集合时，迭代器会检查当前的 modCount 值与创建时记录的值是否相同。
+如果在迭代过程中，集合的 modCount 值发生了变化（例如调用了 add()、remove() 方法），就会抛出 ConcurrentModificationException。
+
+
+
+
+
+
+
+1在迭代器的状态不合法时调用 remove()
+2连续调用 remove()
+3在调用 next() 之前调用 remove()
+都会触发IllegalStateException

@@ -18,15 +18,18 @@ public class ArrayListExample {
         System.out.println(eg1.equals(eg2));
         //这俩互相赋值，两个指针都指向了了同一片内存区域
 
+        System.out.println("---------------------------------");
+
         ArrayList<String> a= new ArrayList<String>();//initial capacity of ten
-        a.add(new String("xiao1"));
-        a.add("facevalue can be used here");
+        a.add(new String("xiao1"));//0
+        a.add("facevalue can be used here");//1
         System.out.println(a.size());//返回number of elements
         System.out.println(a.get(1));
-        a.add("this one is meant to be removed");
-        a.add("test remove");
+        System.out.println("---------------------------------");
+        a.add("this one is meant to be removed");//2
+        a.add("test remove");//3
         System.out.println(a.remove(a.get(a.size()-1)));//remove还会返回一个是否删除成功的标志
-
+        System.out.println("---------------------------------");
         //以下开始讲迭代器
         /*
         E next();//返回容器中第一个元素，在第一次调用的时候，再调用就会是下一个元素了
@@ -36,24 +39,31 @@ public class ArrayListExample {
         Iterator<String>e=a.iterator();
 
        // e.remove();//这样就会直接报错
-        System.out.println("the deleted elements"+e.next());
+        System.out.println("the deleted elements"+':'+e.next());
         e.remove();
+        System.out.println("---------------------------------");
         System.out.println(a.get(0));//卧槽，它删除相当于直接把第0给删除了，还把每一个值都往前移动了一个
         a.add("what is that");//在这里修改了一下迭代的东西
         System.out.println(a.get(2));
+        System.out.println("---------------------------------");
         String result="initialize";
        // e.next();//你还想用老迭代器来迭代，那就会报错了,currentmodificationexception
         //我立刻就再声明一个迭代器
         Iterator<String> k=a.iterator();
+//        k.next();
+//        k.next();
+//        k.remove();
+//        a.add("try to cause serious problems");
         //最后一个问题，激素hi说如果在循环中
-        while(k.hasNext()){
-
-            result = k.next();
-            k.remove();
-          //  a.add("try to cause serious problems");
-
-        }
-        System.out.println(result);
+//        while(k.hasNext()){
+//
+//            result = k.next();
+//            k.remove();
+//          //  a.add("try to cause serious problems");
+//
+//        }
+//        String output= k.next();
+        System.out.println(k.next());
 
 
 
@@ -70,7 +80,9 @@ public class ArrayListExample {
  * 3局部内部类：可以访问外部类的所有成员（包括私有成员）以及方法的局部变量（如果是 final 或有效的最终变量）（就是函数里声明的类，感觉不会有人类这么写）
  * 4匿名内部类，这个后面再讲
  * 我在这实现了一个类似的，但是实现的实际上很烂，几乎没法用，就是为了讲解一下这个iterator和arraylist之间的关系。
+ * 相当于说Iterator在arraylist里是一个实现了iterator借口的内部类！//10.12日理解到
  * 然后我在上面讲了迭代器的操作，从我的那个分隔符以下，main里就都是讲iterator的了
+ * 迭代器直接操作的是容器内部对象！！！不是副本！！！
  */
 class egForIterator<E>{
     public int size;
