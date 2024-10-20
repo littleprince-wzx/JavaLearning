@@ -1,6 +1,6 @@
 package EighthChapterIOStream;
 import java.util.Scanner;
-public class InputExample {
+public class InputExampleScanner {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);//传入的参数居然是一个输入流
         //System.in

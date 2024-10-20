@@ -1,6 +1,10 @@
 package EighthChapterIOStream;
 import java.io.*;
-public class OcodingByte {
+
+/**
+ * 这是第二个
+ */
+public class OcodingBytePart2 {
     public static void main(String[] args) {
         String str="Hello world";
         byte [] b;

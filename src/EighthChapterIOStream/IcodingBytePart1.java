@@ -1,5 +1,9 @@
 package EighthChapterIOStream;
 //bytheway我在第四单元的时候因为要考虑输入输出异常，所以调过这个库（库是包的集合）
+/**
+ * 这是第一个
+ * 字节流->抽象的输入流输出流——>基本字节流
+ */
 
 import java.io.IOException;
 import java.io.*;
@@ -17,7 +21,7 @@ import java.io.*;
  * anyways,底下先给大家展示一下所有输入字节流的抽象基类InputStream
  * 它的方法表我感觉一时半会都用不上，我也找不到示例代码
  */
-public class IOcodingByte {
+public class IcodingBytePart1 {
         //以下这个实现为书中示例代码
     public void m(InputStream in){
         try{
@@ -36,14 +40,17 @@ public class IOcodingByte {
     }
 
     public static void main(String[] args) {
-     //   IOcodingByte i=new IOcodingByte();
+     //   IcodingBytePart1 i=new IcodingBytePart1();
      //   i.m(System.in);//你这个方法的实现内部有个while，所以一直在输入，你调用了.read()的方法
         //以下是书上的InputStream主要方法表通过其某一个子类的实现
         // 示例数据
         String data = "Hello, InputStream! This is a demonstration of InputStream methods.";
         byte[] byteArray = data.getBytes();//从字符转换为字节
 
-        // 创建 ByteArrayInputStream
+        /**
+         * 创建 ByteArrayInputStream，尽管在讲关于inputstream，但是仍然用byte来举例
+         */
+
         ByteArrayInputStream inputStream = new ByteArrayInputStream(byteArray);//初始化，就相当于是在拿这个String data来举示例
 
         try {

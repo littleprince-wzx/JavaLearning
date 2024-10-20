@@ -9,13 +9,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6eae4ff7-c0e3-4e1a-83da-f69dd0d8b31a" name="更改" comment="这是第八章的IO编程，感觉有很多不懂的。主要可能还是对操作系统不懂。什么缓冲区理解不当">
-      <change afterPath="$PROJECT_DIR$/src/SixthChapterCollectionAndList/迭代器的特性.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThirdTheoryAssignment/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/example.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/output2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/BasicByteStreamInputFunctionPart3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/BasicByteStreamOutputFunctionPart4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/BasicBytefilterPart5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/EighthChapterIOStream_PartOne_Explained.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/EighthChapterIOStream_PartTwo_Explained.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/io编程的学习PartEnd5.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FifthChapterUnit4And5/FifthChapterUnit4And5_Explained.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FirstChapter/FirstChapter_Java_Explained_Chinese.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FourthChapterExceptionAndjavadocUnit3/FourthChapterExceptionAndJavadoc_Explained.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SecondPartUnit3/SecondPartUnit3_Java_Explained.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SeventhChapterAbstractAndInterface/SeventhChapterAbstract_Explained.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SeventhChapterAbstractAndInterface/SeventhChapterInterfaceAndAnonymousClass_Explained.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SixthChapterCollectionAndList/SixthChapterCollectionAndList_Explained.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ThirdChapterStringapiUnit3/ThirdChapterStringapi_Explained.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EighthChapterIOStream/IOcodingByte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/IOcodingByte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EighthChapterIOStream/InputExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/InputExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EighthChapterIOStream/OcodingByte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/OcodingByte.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SixthChapterCollectionAndList/ArrayListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SixthChapterCollectionAndList/ArrayListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EighthChapterIOStream/IOcodingByte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/IcodingBytePart1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EighthChapterIOStream/InputExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/InputExampleScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EighthChapterIOStream/OcodingByte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/OcodingBytePart2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +59,10 @@
     &quot;accountId&quot;: &quot;8e5bca77-c7af-43e6-ac87-ad20c5a7b587&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://C:/Program Files/Java/jdk-22/lib/src.zip!/java.base/java/lang/Object.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://C:/Program Files/Java/jdk-22/lib/src.zip!/java.base/java/util/Iterator.java" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -58,41 +77,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;E:/codelist/java/thelearning/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;Settings.Markdown&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;应用程序.ArrayListExample.executor&quot;: &quot;Debug&quot;,
-    &quot;应用程序.Begin.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Example.TestAuthority.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.First.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.IOcodingByte.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.InputExample.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.OcodingByte.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.OutPutStreamMethods.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.StringApi.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.TestAuthority.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.TestPackage.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.Testauthority.executor&quot;: &quot;Coverage&quot;,
-    &quot;应用程序.TheClassForImplementing.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.TheTestOfSonClass.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.YiChangmain.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.begin.executor&quot;: &quot;Coverage&quot;,
-    &quot;应用程序.test.executor&quot;: &quot;Run&quot;,
-    &quot;应用程序.testforAbstract.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/codelist/java/thelearning/src/EighthChapterIOStream",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "E:/codelist/java/thelearning/src/Main.java",
+    "settings.editor.selected.configurable": "fileTemplates",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.ArrayListExample.executor": "Debug",
+    "应用程序.BasicByteStream.executor": "Run",
+    "应用程序.BasicByteStreamOutputFunction.executor": "Run",
+    "应用程序.BasicBytefilter5.executor": "Run",
+    "应用程序.Begin.executor": "Run",
+    "应用程序.Example.TestAuthority.executor": "Run",
+    "应用程序.First.executor": "Run",
+    "应用程序.IOcodingByte.executor": "Run",
+    "应用程序.InputExample.executor": "Run",
+    "应用程序.OcodingByte.executor": "Run",
+    "应用程序.OutPutStreamMethods.executor": "Run",
+    "应用程序.StringApi.executor": "Run",
+    "应用程序.TestAuthority.executor": "Run",
+    "应用程序.TestPackage.executor": "Run",
+    "应用程序.Testauthority.executor": "Coverage",
+    "应用程序.TheClassForImplementing.executor": "Run",
+    "应用程序.TheTestOfSonClass.executor": "Run",
+    "应用程序.YiChangmain.executor": "Run",
+    "应用程序.begin.executor": "Coverage",
+    "应用程序.test.executor": "Run",
+    "应用程序.testforAbstract.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\codelist\java\thelearning\src\EighthChapterIOStream" />
+      <recent name="E:\codelist\java\thelearning\src\SeventhChapterAbstractAndInterface" />
+      <recent name="E:\codelist\java\thelearning\src\SixthChapterCollectionAndList" />
+      <recent name="E:\codelist\java\thelearning\src\FifthChapterUnit4And5" />
+      <recent name="E:\codelist\java\thelearning\src\FourthChapterExceptionAndjavadocUnit3" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="FourthChapterExceptionAndjavadocUnit3" />
       <recent name="ThirdChapterStringapiUnit3" />
@@ -115,8 +145,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOcodingByte" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EighthChapterIOStream.IOcodingByte" />
+    <configuration name="IcodingBytePart1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="EighthChapterIOStream.IcodingBytePart1" />
       <module name="thelearning" />
       <extension name="coverage">
         <pattern>
@@ -150,18 +180,26 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="应用程序.IOcodingByte" />
       <item itemvalue="应用程序.Begin" />
+      <item itemvalue="应用程序.IcodingBytePart1" />
       <item itemvalue="应用程序.TestAuthority" />
       <item itemvalue="应用程序.Testity" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.IOcodingByte" />
         <item itemvalue="应用程序.Begin" />
+        <item itemvalue="应用程序.IcodingBytePart1" />
         <item itemvalue="应用程序.Testity" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -178,6 +216,14 @@
       <workItem from="1728785993336" duration="2509000" />
       <workItem from="1728824165518" duration="3000" />
       <workItem from="1728824179007" duration="1195000" />
+      <workItem from="1728882805985" duration="13000" />
+      <workItem from="1728897353606" duration="1000" />
+      <workItem from="1728897359284" duration="6157000" />
+      <workItem from="1728920154525" duration="1819000" />
+      <workItem from="1729001115555" duration="598000" />
+      <workItem from="1729065962934" duration="353000" />
+      <workItem from="1729422873291" duration="1302000" />
+      <workItem from="1729429819997" duration="6279000" />
     </task>
     <task id="LOCAL-00001" summary="这是第八章的IO编程，感觉有很多不懂的。主要可能还是对操作系统不懂。什么缓冲区理解不当">
       <option name="closed" value="true" />
@@ -208,6 +254,10 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/thelearning$begin.ic" NAME="begin 覆盖结果" MODIFIED="1728435572295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
