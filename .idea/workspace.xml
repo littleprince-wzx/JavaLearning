@@ -8,21 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6eae4ff7-c0e3-4e1a-83da-f69dd0d8b31a" name="更改" comment="这是第八章的IO编程，感觉有很多不懂的。主要可能还是对操作系统不懂。什么缓冲区理解不当">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EighthChapterIOStream/EighthChapterIOStream_PartFour_Explained.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/EighthChapterIOStream_PartFour_Explained.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EighthChapterIOStream/EighthChapterIOStream_PartOne_Explained.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/EighthChapterIOStream_PartOne_Explained.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EighthChapterIOStream/EighthChapterIOStream_PartThree_Explained.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/EighthChapterIOStream_PartThree_Explained.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EighthChapterIOStream/EighthChapterIOStream_PartTwo_Explained.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/EighthChapterIOStream_PartTwo_Explained.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EighthChapterIOStream/io编程的学习PartEnd5.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/io编程的学习PartEnd5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FifthChapterUnit4And5/FifthChapterUnit4And5_Explained.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/FifthChapterUnit4And5/FifthChapterUnit4And5_Explained.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FirstChapter/FirstChapter_Java_Explained_Chinese.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstChapter/FirstChapter_Java_Explained_Chinese.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FourthChapterExceptionAndjavadocUnit3/FourthChapterExceptionAndJavadoc_Explained.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/FourthChapterExceptionAndjavadocUnit3/FourthChapterExceptionAndJavadoc_Explained.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SecondPartUnit3/SecondPartUnit3_Java_Explained.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondPartUnit3/SecondPartUnit3_Java_Explained.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SixthChapterCollectionAndList/ArrayListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SixthChapterCollectionAndList/ArrayListExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SixthChapterCollectionAndList/SixthChapterCollectionAndList_Explained.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/SixthChapterCollectionAndList/SixthChapterCollectionAndList_Explained.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SixthChapterCollectionAndList/迭代器的特性.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/SixthChapterCollectionAndList/迭代器的特性.md" afterDir="false" />
-    </list>
+    <list default="true" id="6eae4ff7-c0e3-4e1a-83da-f69dd0d8b31a" name="更改" comment="这是第八章的IO编程，感觉有很多不懂的。主要可能还是对操作系统不懂。什么缓冲区理解不当" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -216,7 +202,7 @@
       <workItem from="1729422873291" duration="1302000" />
       <workItem from="1729429819997" duration="6279000" />
       <workItem from="1729470529292" duration="85000" />
-      <workItem from="1729470618988" duration="2488000" />
+      <workItem from="1729470618988" duration="3167000" />
     </task>
     <task id="LOCAL-00001" summary="这是第八章的IO编程，感觉有很多不懂的。主要可能还是对操作系统不懂。什么缓冲区理解不当">
       <option name="closed" value="true" />

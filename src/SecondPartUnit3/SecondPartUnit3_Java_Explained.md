@@ -13,6 +13,7 @@
     BasicRules first = new BasicRules(4.2f, 4.3f);
     ```
 - **this 关键字**：类似于 Python 中的 `self`，`this` 指向当前对象。
+- 这个this在7中有详解。
 
 ---
 
