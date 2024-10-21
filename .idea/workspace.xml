@@ -9,28 +9,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6eae4ff7-c0e3-4e1a-83da-f69dd0d8b31a" name="更改" comment="这是第八章的IO编程，感觉有很多不懂的。主要可能还是对操作系统不懂。什么缓冲区理解不当">
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/example.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/output2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/BasicByteStreamInputFunctionPart3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/BasicByteStreamOutputFunctionPart4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/BasicBytefilterPart5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/EighthChapterIOStream_PartOne_Explained.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/EighthChapterIOStream_PartTwo_Explained.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/io编程的学习PartEnd5.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FifthChapterUnit4And5/FifthChapterUnit4And5_Explained.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FirstChapter/FirstChapter_Java_Explained_Chinese.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FourthChapterExceptionAndjavadocUnit3/FourthChapterExceptionAndJavadoc_Explained.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SecondPartUnit3/SecondPartUnit3_Java_Explained.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SeventhChapterAbstractAndInterface/SeventhChapterAbstract_Explained.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SeventhChapterAbstractAndInterface/SeventhChapterInterfaceAndAnonymousClass_Explained.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SixthChapterCollectionAndList/SixthChapterCollectionAndList_Explained.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ThirdChapterStringapiUnit3/ThirdChapterStringapi_Explained.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EighthChapterIOStream/IOcodingByte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/IcodingBytePart1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EighthChapterIOStream/InputExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/InputExampleScanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EighthChapterIOStream/OcodingByte.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/OcodingBytePart2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EighthChapterIOStream/EighthChapterIOStream_PartFour_Explained.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/EighthChapterIOStream_PartFour_Explained.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EighthChapterIOStream/EighthChapterIOStream_PartOne_Explained.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/EighthChapterIOStream_PartOne_Explained.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EighthChapterIOStream/EighthChapterIOStream_PartThree_Explained.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/EighthChapterIOStream_PartThree_Explained.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EighthChapterIOStream/EighthChapterIOStream_PartTwo_Explained.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/EighthChapterIOStream_PartTwo_Explained.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EighthChapterIOStream/io编程的学习PartEnd5.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/EighthChapterIOStream/io编程的学习PartEnd5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FifthChapterUnit4And5/FifthChapterUnit4And5_Explained.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/FifthChapterUnit4And5/FifthChapterUnit4And5_Explained.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FirstChapter/FirstChapter_Java_Explained_Chinese.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/FirstChapter/FirstChapter_Java_Explained_Chinese.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FourthChapterExceptionAndjavadocUnit3/FourthChapterExceptionAndJavadoc_Explained.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/FourthChapterExceptionAndjavadocUnit3/FourthChapterExceptionAndJavadoc_Explained.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SecondPartUnit3/SecondPartUnit3_Java_Explained.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/SecondPartUnit3/SecondPartUnit3_Java_Explained.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SixthChapterCollectionAndList/ArrayListExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SixthChapterCollectionAndList/ArrayListExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SixthChapterCollectionAndList/SixthChapterCollectionAndList_Explained.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/SixthChapterCollectionAndList/SixthChapterCollectionAndList_Explained.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SixthChapterCollectionAndList/迭代器的特性.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/SixthChapterCollectionAndList/迭代器的特性.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +83,7 @@
     "onboarding.tips.debug.path": "E:/codelist/java/thelearning/src/Main.java",
     "settings.editor.selected.configurable": "fileTemplates",
     "vue.rearranger.settings.migration": "true",
-    "应用程序.ArrayListExample.executor": "Debug",
+    "应用程序.ArrayListExample.executor": "Run",
     "应用程序.BasicByteStream.executor": "Run",
     "应用程序.BasicByteStreamOutputFunction.executor": "Run",
     "应用程序.BasicBytefilter5.executor": "Run",
@@ -224,6 +215,8 @@
       <workItem from="1729065962934" duration="353000" />
       <workItem from="1729422873291" duration="1302000" />
       <workItem from="1729429819997" duration="6279000" />
+      <workItem from="1729470529292" duration="85000" />
+      <workItem from="1729470618988" duration="2488000" />
     </task>
     <task id="LOCAL-00001" summary="这是第八章的IO编程，感觉有很多不懂的。主要可能还是对操作系统不懂。什么缓冲区理解不当">
       <option name="closed" value="true" />

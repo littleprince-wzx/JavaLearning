@@ -20,7 +20,15 @@ public class ArrayListExample {
 
         System.out.println("---------------------------------");
 
-        ArrayList<String> a= new ArrayList<String>();//initial capacity of ten
+
+        /**
+         * 初始化a
+         */
+        ArrayList<String> a= new ArrayList<String>();
+
+
+
+        //initial capacity of ten
         a.add(new String("xiao1"));//0
         a.add("facevalue can be used here");//1
         System.out.println(a.size());//返回number of elements
@@ -63,6 +71,7 @@ public class ArrayListExample {
 //
 //        }
 //        String output= k.next();
+        a.add("我想知道调用了这个后，迭代器还能不能.next（）");
         System.out.println(k.next());
 
 

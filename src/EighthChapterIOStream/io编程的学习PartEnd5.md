@@ -19,7 +19,7 @@
          */
         ByteArrayInputStream byteArrayInputStream1=new ByteArrayInputStream(example);
 我现在能链接到的就只有字符数组
-常用方法我就不列了，反正
+常用方法我就不列了，反正书上都有。又不是要抄书
 
 - DataInputStream 这个流直接读取数据流中的int char long 
 但我也不会用。到时候看一下最后的文件编程

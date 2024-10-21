@@ -1,7 +1,7 @@
 
 # Java 基本字节流与文件读取 (Part Three)
 
-本篇文档基于提供的代码，详细解释了 Java 中基本字节流 `ByteArrayInputStream` 和 `FileInputStream` 的使用，尤其是在文件编程中的应用。
+前面两个基类讲完了，这里讲字节流的两个具体非抽象子类，详细解释了 Java 中基本字节流 `ByteArrayInputStream` 和 `FileInputStream` 的使用，尤其是在文件编程中的应用。
 
 ---
 

@@ -6,8 +6,8 @@
 ---
 
 ## 1. OutputStream 与 PrintStream
-
-- **`OutputStream`**：Java 中用于处理字节输出流的抽象类，负责将数据从程序输出到目的地（如文件、网络）。
+相当于是通过printstream来讲解整个这个OutPutStream这个流
+- **`OutputStream`**：Java 中用于处理字节输出流的抽象基类，负责将数据从程序输出到目的地（如文件、网络）。
 - **`PrintStream`**：`PrintStream` 是 `OutputStream` 的子类，通常用于打印输出数据到控制台或文件，具有自动刷新和缓冲机制。`System.out` 就是一个 `PrintStream` 对象。
 
 ---
@@ -59,7 +59,19 @@ public class OcodingBytePart2 {
     }
 }
 ```
-
+什么意思呢，这个里面的out是用的标准输入流，是用的printstream对象。所以可以输出到缓冲区。
+但是底下我演示的这个outstream的其他子类，它虽然有flush，但是是个空操作。
+```java
+     ByteArrayOutputStream byteArrayOutputStream1=new ByteArrayOutputStream();//默认32字节
+        ByteArrayOutputStream byteArrayOutputStream2=new ByteArrayOutputStream(58);//声明的是字节数
+        byteArrayOutputStream1.write(5);//把int值给写入缓冲区
+        byteArrayOutputStream1.write(bytes,0,4);
+        try {
+            byteArrayOutputStream1.flush();///我真TM是服了，这居然是个空操作，只有file和socket这个才有意义，我这个纯粹没有操作。
+        }catch (IOException e) {
+         e.printStackTrace();
+        }
+```
 ---
 
 ## 4. 总结

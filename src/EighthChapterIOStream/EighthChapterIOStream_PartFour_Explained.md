@@ -1,7 +1,7 @@
 
 # Java 基本字节流与文件输出 (Part Four)
 
-本篇文档基于提供的代码，详细解释了 Java 中基本字节流的输出操作，重点讲解了 `ByteArrayOutputStream` 和 `FileOutputStream` 的使用方法，并演示如何将数据写入文件。
+同样，这里讲解两个非抽象子类。，重点讲解了 `ByteArrayOutputStream` 和 `FileOutputStream` 的使用方法，并演示如何将数据写入文件。
 
 ---
 

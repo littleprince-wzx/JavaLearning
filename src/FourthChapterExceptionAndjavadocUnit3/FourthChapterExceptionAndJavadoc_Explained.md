@@ -54,7 +54,7 @@ Java 的异常处理机制是为了避免频繁的 `if-else` 结构，使代码�
 ---
 
 ## 4. 异常类和 throws 关键字
-
+这个throws是在checkedException里必须声明，RuntimeException可声明可不声明。
 - **throws**：在方法声明时使用，提示该方法可能抛出异常，调用者需要处理这些异常。
     ```java
     public static void f() throws Exception {
