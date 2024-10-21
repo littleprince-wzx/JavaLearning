@@ -40,7 +40,7 @@ java的数据大小是固定的！！因为它是在jvm虚拟机上运行的！�
 
 - **if-else**, **switch**：Java 的条件语句和 C 类似。
 - **for**, **while**, **continue**, **break**：循环结构在 Java 中和 C 类似。（完全一致）
-- **foreach**：用于遍历数组或集合：这个东西只学c可能会比较困难。但是还好
+- **foreach**：用于遍历数组或集合：这个东西只学c可能会比较困难。但是还好,就是跟cpp的规则一样。（跟python所有循环逻辑完全类似。）
     ```java
     for (int x : arr) {
         System.out.println(x);
